@@ -88,12 +88,7 @@ Important notes about app logics:
    
 <!-- ISSUES -->
 
-<!-- ## Known Issues
-
-That's something we should have done, but I won't consider it as a bug. 
-No need to clarify any bug for this moment.
-
-1. The Homepage cannot save the local images uploaded, when you go back from the Recommendation page. -->
+<!-- ## Known Issues -->
 
 <!-- LICENSE -->
 
@@ -105,13 +100,11 @@ Distributed under the MIT License.
 
 ## Contributors
 
-Super thanks to all the team members of Team Orange 💖
-  - Hongda Lin, Zitao Cai, Yibo Chen, Josh Mahabir, Sung Park, Jim Wei, Anna Xiao
+Hongda Lin, Zitao Cai, Yibo Chen, Josh Mahabir, Sung Park, Jim Wei, Anna Xiao
 
 <!-- CONTACT -->
 
 ## Contact
 
-- Hongda Lin: hongdalin2026@u.northwestern.edu
 - Zitao Cai: zitaocai2025@u.northwestern.edu
 - Project Link: https://github.com/394-w24/GiftGuru
