@@ -15,7 +15,7 @@
 </p>
 
 - Gift Guru is a gift-giving web application combining AI image recognization and Google Shopping API. 
-- By uploading photos of your loved one enjoys, the AI analyzes the image and suggest the perfect, stress-free gift. 
+- By uploading photos of your loved one enjoys, the AI analyzes the image and suggest the perfect gift. 
 
 ### Built With
 
@@ -70,21 +70,24 @@ npm run dev
 
 ## Continue Working
 
-Important notes about hosting:
+#### Important notes about hosting
 
 1. Fork the Project to your own repo.
-2. The project is hosted using firebase. The authentication and sign-up logics is also down in firebase. However, if you want to continue work on this project, you cannot use our firebase. Follow the instruction in firebase and change the [file](https://github.com/394-w24/GiftGuru/blob/master/utilities/firebase.js) when you finished.
+2. The project is hosted using firebase. The authentication and sign-up logics is also down in firebase.
+   - However, if you want to continue work on this project, you cannot use our firebase.
+   - Follow the instruction in firebase and change this [file](https://github.com/394-w24/GiftGuru/blob/master/utilities/firebase.js) when you finished.
 3. In order to have a working website on the internet, you have to host your backend, not locally! 
 
-
-Important notes about app logics:
+#### Important notes about app logics
 
 1. We use prompt in the [backend code ](https://github.com/394-w24/GiftGuruBE/blob/main/routes/gemini.js), you can change it to return more specific gift tags.
    - But there are limitations of what Gemini can return. It cannot recognize things that it don't know. (AI limitation)
-2. Also, in the above file. You will noticed that we only let Gemini generate 6 tags from the image we input. You can change it.
+2. Also, in the above file. You will noticed that we only let Gemini generate 6 tags from the image we input. 
 3. We use the Google Shopping API wrapped by Serpapi to do the gift seaching. But there are some implementation details:
    - Be ware that there are only 100 free searches per account per month!
-   - In the [frontend code](https://github.com/394-w24/GiftGuru/blob/master/src/components/homePage/homePage.jsx), line 170, you will noticed that we divide 6 tags into 3 groups, each with 2 tags and call the Google Shopping API. This will result in 3 searches per get recommendation. The reason why we do this is because it return better searching result. You can change here.
+   - In the [frontend code](https://github.com/394-w24/GiftGuru/blob/master/src/components/homePage/homePage.jsx), line 170, you will noticed that we divide 6 tags into 3 groups, each with 2 tags and call the Google Shopping API.
+   - This will result in 3 searches per get recommendation.
+   - The reason why we do this is because it return better searching result. (But it takes more time)
    
 <!-- ISSUES -->
 
